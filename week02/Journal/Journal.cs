@@ -38,7 +38,7 @@ public class Journal
             string[] lines = File.ReadAllLines(fullPath);
             foreach (string line in lines)
             {
-                _entries.AddRange(Entry.FromCsv(line));
+                _entries.Add(Entry.FromCsv(line));
             }
             Console.WriteLine($"File {filename} loaded sucessfully.");
             
