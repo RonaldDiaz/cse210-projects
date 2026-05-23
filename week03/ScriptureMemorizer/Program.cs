@@ -1,6 +1,7 @@
 // Enhancements: Added functionality to allow the user select a scripture from a list.
 // Added a choice to select game dificulty (number of words hidden per turn).
 // Added the class Game Manager to handle new functionality.
+// Aditional Resources consulted:
 // https://www.quora.com/How-do-I-generate-a-list-of-random-integers-without-repeating-in-C
 // https://imaginaformacion.com/tutoriales/strings-en-c-sharp
 // https://codemia.io/knowledge-hub/path/best_way_to_repeat_a_character_in_c
