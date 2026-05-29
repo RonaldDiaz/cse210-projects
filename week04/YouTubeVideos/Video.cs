@@ -14,7 +14,7 @@ public class Video
 
     public string GetDisplayText()
     {
-        return $"Title: {_title} | Author: {_author} | Duration: {_length} seconds. | Total Comments: {TotalComments()}";
+        return $"Title: {_title} | Author: {_author} | Duration: {_length} seconds. | Total Comments: {GetTotalComments()}";
     }
 
     public List<Comment> GetComments()
@@ -28,7 +28,7 @@ public class Video
         _comments.Add(comment);
     }
 
-    public int TotalComments()
+    public int GetTotalComments()
     {
         return _comments.Count;
     }

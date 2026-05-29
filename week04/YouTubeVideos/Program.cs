@@ -46,7 +46,7 @@ class Program
             Console.WriteLine(video.GetDisplayText());
             Console.WriteLine(new string('-', 40));
             Console.WriteLine("Comments: ");            
-            if (video.TotalComments() > 0)
+            if (video.GetTotalComments() > 0)
             {
                 foreach (Comment comment in video.GetComments())
                 {
