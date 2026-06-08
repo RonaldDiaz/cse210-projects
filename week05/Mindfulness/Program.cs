@@ -1,5 +1,5 @@
 // Enhancements: Added a Menu class. Added a way to avoid getting the same prompt.
-// Changed the countdown of the Breathing Activity for a breathing animation.
+// In the breathing activity, I commented out the contdown (original requirement), and changed it for a breathing animation.
 using System;
 
 class Program
